@@ -1,0 +1,23 @@
+.music{
+    margin-top: 5%;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(66, 94, 255, 0.2);
+}
+
+.music-elbum{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.audio{
+    border-radius: 50px;
+    background-color:rgba(251, 250, 255, 0.836);
+}
+.audio::-webkit-media-controls-panel{
+    background-color: rgba(255, 255, 255, 0.836);
+}

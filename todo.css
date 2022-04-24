@@ -1,0 +1,49 @@
+.to-do{
+    position: relative;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 400px;
+    border-radius: 10px; 
+    background-color: rgba(66, 94, 255, 0.2);
+}
+
+.input-style{
+    width: 300px;
+    line-height: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    text-shadow: 0 0 0 black;
+}
+
+.list{
+    margin-top: 30px;
+    width: 350px;
+    height: 430px;
+    border-radius: 10px;
+    overflow-y:scroll;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+.list::-webkit-scrollbar{
+    width: 15px;
+}
+.list::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color: rgb(50, 61, 124);
+}
+.list::-webkit-scrollbar-track{
+    border-radius: 50px;
+    background-color: rgb(233, 252, 255);
+    border-radius: 50px;
+}
+
+.ul-style{
+    list-style: none;
+    align-items:flex-start;
+    padding-left: 15px;
+    display:flex;
+    flex-direction: column;
+}

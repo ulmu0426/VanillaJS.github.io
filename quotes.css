@@ -1,0 +1,17 @@
+.quotesDiv{
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display:flex;
+    flex-direction: column;
+}
+
+.quotes{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.auther{
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
