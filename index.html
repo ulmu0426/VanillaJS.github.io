@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanillaJS</title>
+    <link rel="stylesheet" href="backround.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="logIn.css">
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="quotes.css">
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="background">
+        <div class="clock-weather">
+            <!-- weather clock-->
+            <div class="clock">
+                <span id="clockYMD"></span>
+                <h2 id="clock"></h2>
+            </div>
+            <div>
+                <h4 id="temp"></h4>
+                <h4 id="weather"></h4>
+                <h4 id="location"></h4>
+            </div>
+        </div>
+        <!-- to do-->
+        <div class="to-do">
+            <h3>To Do List</h3>
+            <form id="todo-form">
+                <input class="input-style" type="text" placeholder="Write To Do And Press Enter">
+                <button class="todo-button" id="">Add</button>
+            </form>
+            <ul class="list" id="todo-list"></ul>
+        </div>
+
+
+        <div class="loginAndMusic">
+            <!-- log in-->
+            <div class="loginDiv">
+                <form class="hidden" id="log-in">
+                    <input class="login-id" type="text" placeholder="Log In Please">
+                    <button class="login-button" id="log-in button">Log In</button>
+                </form>
+                <div class=" hidden" id="log-out">
+                    <img class="profileImg" src="userImg/ryan.jpg" alt="">
+                    <h3 id="userid"></h3>
+                </div>
+                <div class="quotesDiv">
+                    <!-- quotes-->
+                    <span class="quotes" id="quotes"></span>
+                    <span class="auther" id="auther"></span>
+
+                </div>
+            </div>
+
+            <!-- music-->
+            <div class="music">
+                <h4 class="music-title"></h4>
+                <img class="music-elbum" src="music-elbum" alt="">
+                <audio class="audio" id="musicSrc" src="" controls></audio>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="logIn.js"></script>
+    <script src="music.js"></script>
+    <script src="quotes.js"></script>
+    <script src="randomBg.js"></script>
+    <script src="realTimeWatch.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
